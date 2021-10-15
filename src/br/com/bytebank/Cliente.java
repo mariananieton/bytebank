@@ -1,4 +1,4 @@
-package mariana;
+package br.com.bytebank;
 
 public class Cliente {
 

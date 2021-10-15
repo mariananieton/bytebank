@@ -1,4 +1,4 @@
-package mariana;
+package br.com.bytebank;
 
 public class Conta {
 
@@ -10,11 +10,8 @@ public class Conta {
 
     public Conta(int agencia, int numero){
         Conta.total++;
-        // System.out.println("O total de contas é " + mariana.Conta.total);
         this.agencia = agencia;
         this.numero = numero;
-        // this.saldo = 100;
-        // System.out.println("Estou criando uma conta " + this.numero);
     }
 
     public void deposita(double valor) {
@@ -49,7 +46,7 @@ public class Conta {
 
     public void setNumero(int numero){
         if(numero <= 0) {
-            System.out.println("Nao pode valor menor igual a 0");
+            System.out.println("Não pode valor menor igual a 0");
             return;
         }
         this.numero = numero;
@@ -61,7 +58,7 @@ public class Conta {
 
     public void setAgencia(int agencia){
         if(agencia <= 0) {
-            System.out.println("Nao pode valor menor igual a 0");
+            System.out.println("Não pode valor menor igual a 0");
             return;
         }
         this.agencia = agencia;
