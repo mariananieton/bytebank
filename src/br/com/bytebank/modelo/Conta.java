@@ -1,7 +1,7 @@
 package br.com.bytebank.modelo;
 
 /**
- * Classe representa a moldura de uma conta
+ * Classe representa a moldura de uma conta.
  * @author Mariana Nieton
  */
 public abstract class Conta {
